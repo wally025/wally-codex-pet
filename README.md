@@ -6,6 +6,15 @@ A cheerful little guide for builds, reviews, and clean progress.
 
 ![Wally preview](docs/wally-preview.png)
 
+## Animation
+
+Wally uses the standard Codex pet atlas with refreshed motion:
+
+- clearer left/right walk cycles for moving across the screen
+- a more energetic in-place build/run bounce
+- stronger waving, jumping, waiting, and review poses
+- clean black-and-white sprite styling with no text, props, local paths, or generated logs
+
 ## Install
 
 Run:
