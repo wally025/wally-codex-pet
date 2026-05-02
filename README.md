@@ -17,7 +17,8 @@ Wally uses the standard Codex pet atlas with refreshed motion:
 - stronger waving, jumping, waiting, and review poses
 - clean black-and-white sprite styling with no text, props, local paths, or generated logs
 
-Open `docs/demo.html` in a browser to preview every animation state.
+Try the interactive demo: `docs/demo-v2.html`.
+`docs/demo.html` redirects to the current demo.
 
 ## Install
 
@@ -43,7 +44,8 @@ cp pet.json spritesheet.webp "${CODEX_HOME:-$HOME/.codex}/pets/wally/"
 - `docs/wally-preview.png`: transparent preview image
 - `docs/pet-picker-preview.png`: dark UI-style preview
 - `docs/contact-sheet.png`: row-by-row QA contact sheet
-- `docs/demo.html`: standalone animation preview
+- `docs/demo-v2.html`: interactive animation preview
+- `docs/demo.html`: redirect to the current demo
 - `scripts/install.sh`: local installer
 
 ## Sprite Contract

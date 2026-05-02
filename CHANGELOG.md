@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added `docs/demo-v2.html`, an interactive offline demo with state controls, speed slider, play/pause, random mode, German status phrases, keyboard shortcuts, and PNG frame export.
+- Kept `docs/demo.html` as a redirect to the current demo.
+
 ## 2.0.0 - 2026-05-02
 
 - Refreshed Wally's left and right walking cycles for clearer screen movement.
