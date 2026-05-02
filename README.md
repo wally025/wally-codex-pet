@@ -1,5 +1,7 @@
 # Wally Codex Pet
 
+Current release: `v2.0.0`
+
 Wally is an original black-and-white mascot, packaged here as a custom pet for Codex.
 
 A cheerful little guide for builds, reviews, and clean progress.
@@ -14,6 +16,8 @@ Wally uses the standard Codex pet atlas with refreshed motion:
 - a more energetic in-place build/run bounce
 - stronger waving, jumping, waiting, and review poses
 - clean black-and-white sprite styling with no text, props, local paths, or generated logs
+
+Open `docs/demo.html` in a browser to preview every animation state.
 
 ## Install
 
@@ -39,6 +43,7 @@ cp pet.json spritesheet.webp "${CODEX_HOME:-$HOME/.codex}/pets/wally/"
 - `docs/wally-preview.png`: transparent preview image
 - `docs/pet-picker-preview.png`: dark UI-style preview
 - `docs/contact-sheet.png`: row-by-row QA contact sheet
+- `docs/demo.html`: standalone animation preview
 - `scripts/install.sh`: local installer
 
 ## Sprite Contract
@@ -55,7 +60,11 @@ This public package intentionally excludes local run folders, generation logs, s
 
 ## Publishing
 
-This folder is ready to publish as a GitHub repository or ZIP archive. Users can install it by cloning or downloading the folder and running `./scripts/install.sh`.
+Users can install Wally by cloning this repository, downloading a release ZIP, and running `./scripts/install.sh`.
+
+## Changelog
+
+See `CHANGELOG.md`.
 
 ## License
 
